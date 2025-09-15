@@ -1,12 +1,41 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(223, 223, 201);
+    height: 4rem;
+
     ul {
-        width: 100%;
+        background-color: rgb(166, 162, 136);
+        padding: 0;
+        height: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         list-style: none;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            height: 100%;
+            width: 100%;
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
     }
+}
+
+.nav > * {
+    text-align: center;
+    width: 30%;
+    margin: 0;
 }

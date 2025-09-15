@@ -1,8 +1,13 @@
 <div class="nav">
+    <p></p>
+
+    <H1>COOL WEBSITE</H1>
+
     <ul>
-        <li><a href="/pages/test">ya</a></li>
-        
-        <li>bruh2</li>
-        <li>bruh3</li>
-    </ul>
+        {% for item in nav.items %}
+        <li class="other">
+            <a href="{{item.url}}">{{item.text}}</a>
+        </li>
+        {% endfor %}
+    </ul>    
 </div>
