@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "name": "meeeeeeee",
+            "occupation": "being a cool person who made this website",
+            "picture": "image yes.png"
+        },
+         {
+            "name": "Elgomortha",
+            "occupation": "IT",
+            "picture": "blender_test.png"
+        },
+         {
+            "name": "Brian",
+            "occupation": "marketing",
+            "picture": "placeholder.png"
+        }
+    ]
+}

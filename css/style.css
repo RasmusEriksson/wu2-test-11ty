@@ -2,6 +2,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* All of the css styling for the navbar */
 .nav{
     display: flex;
     align-items: center;
@@ -38,4 +39,63 @@
     text-align: center;
     width: 30%;
     margin: 0;
+}
+
+/* page preview stuffs*/
+
+.page_preview {
+    background-color: rgb(255, 248, 233);
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    li {
+        width: 20%;
+
+        background-color: rgb(221, 210, 178);
+        display: flex;
+        flex-direction: column;
+
+        h2, a, p, time {
+            margin: 0.5rem;
+        }
+
+        img {
+            background-color: white;
+            width: 100%;
+            height: 15rem;
+            object-fit: cover;
+        }
+    }
+}
+
+/* employee page stuff */
+
+.employee_page {
+    background-color: rgb(255, 248, 233);
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    li {
+        width: 20%;
+
+        background-color: rgb(221, 210, 178);
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        h2, a, p, time {
+            margin: 0.5rem;
+        }
+
+        img {
+            width: 100%;
+            height: 15rem;
+            flex: 1;
+            background-color: white;
+            object-fit: cover;
+        }
+    }
 }

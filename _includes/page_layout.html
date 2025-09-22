@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/page.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <img src="{{image}}" alt="">
+    {% include "nav.html" %}
+    
     {{title}}
+
+    <img src="{{image}}" alt="">
+    
     <h1>WOAH!!!!</h1>
     
 </body>
